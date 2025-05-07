@@ -1,8 +1,13 @@
 #include <stdio.h>
 #include <math.h>
 
-
 // This is where you add the function calculate_hypotenuse
+float calculate_hypotenuse(float cat1, float cat2){
+
+    float hypnuse = sqrt(pow(cat1, 2) + pow(cat2, 2));
+
+    return hypnuse;
+}
 
 int main() {
     float a = 3.0;
